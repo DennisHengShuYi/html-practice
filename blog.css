@@ -1,0 +1,334 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow   : auto !important;
+
+
+}
+
+
+.social-icons {
+    display         : flex;
+    position        : fixed;
+    background-color: black;
+    color           : white;
+    width           : 100%;
+    z-index         : 1;
+}
+
+.social-icons i {
+    padding  : 10px 15px;
+    font-size: 130% !important;
+
+}
+
+.social-icons a {
+    text-decoration: none;
+    color          : white;
+}
+
+.social-icons i:hover {
+    background-color: white;
+    color           : black;
+    cursor          : pointer;
+}
+
+@media screen and (max-width:549px) {
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+.content {
+    padding-top: 90px;
+}
+
+.content p {
+    letter-spacing: -1px;
+}
+
+.title * {
+    text-align: center;
+}
+
+.banner-image img {
+    width: 100%
+}
+
+.banner-title {
+    text-align: center;
+    position  : absolute;
+    top       : 50%;
+    /* Center vertically */
+    left      : 2%;
+    transform : translate(0%, -50%);
+    /* Adjust positioning to the center */
+
+}
+
+.banner-title h2 {
+    color: white !important;
+}
+
+.banner-title-jane {
+
+    font-size: 50%;
+}
+
+.banner-button {
+    padding         : 20px 20px;
+    background-color: gray;
+    border          : 1px black solid;
+}
+
+.main-content {
+    display: flex;
+}
+
+.like-button,
+.replies-button {
+    padding: 15px;
+}
+
+.like-button {
+    float: left;
+}
+
+.replies-button {
+    background-color: black;
+    color           : white;
+    float           : right;
+}
+
+.blog-button::after {
+    content: "";
+    clear  : both;
+    display: block;
+}
+
+.blog {
+    width          : 60%;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    margin         : 0px 20px;
+}
+
+.blog img {
+    width: 100%;
+}
+
+.main-content {
+    padding         : 50px 20px;
+    background-color: lightgray;
+}
+
+.blog-title {
+    text-align: center;
+}
+
+.side-content {
+    width : 30%;
+    margin: 0px 20px;
+}
+
+.side-name img {
+    width : 100%;
+    height: auto;
+    filter: grayscale(70%);
+}
+
+.post h4 {
+    color           : white;
+    background-color: black;
+    padding         : 15px 15px;
+    margin-bottom   : 0 !important;
+}
+
+.post {
+    display       : flex;
+    flex-direction: column;
+
+    margin-top: 25px;
+}
+
+.second-post {
+    position        : relative;
+    background-color: white;
+    border-top      : 1px solid black;
+    padding         : 10px 0px;
+
+}
+
+.second-post img {
+
+    width : 14%;
+    margin: 10px 10px;
+}
+
+.second-post p {
+    float   : right;
+    position: absolute;
+    top     : 26%;
+    left    : 25%;
+}
+
+.ad {
+    margin-top: 25px;
+
+}
+
+.ad h4 {
+    color           : white;
+    background-color: black;
+    padding         : 15px 15px;
+    margin-bottom   : 0 !important;
+}
+
+.ad-content {
+    background-color: white;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    height          : 10%;
+}
+
+.ad-text {
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    width           : 80%;
+    height          : 90%;
+    background-color: lightgray;
+}
+
+.tag-section {
+    margin-top: 25px;
+}
+
+.tag-section h4 {
+    color           : white;
+    background-color: black;
+    padding         : 15px 15px;
+    margin-bottom   : 0 !important;
+
+}
+
+.tag {
+    background-color: lightgray;
+    padding         : 4px;
+    display         : inline-block;
+    margin-bottom   : 15px;
+    margin-right    : 5px;
+    font-size       : 0.7em;
+}
+
+.tag-content {
+    padding         : 20px 10px;
+    background-color: white;
+}
+
+.inspi {
+    margin-top: 25px;
+}
+
+.inspi h4 {
+    color           : white;
+    background-color: black;
+    padding         : 15px 15px;
+    margin-bottom   : 0 !important;
+}
+
+.gallery-inspi {
+    display              : grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows   : auto auto;
+    gap                  : 10px;
+    padding              : 20px 20px;
+    background-color     : white;
+}
+
+.gallery-inspi img {
+    width: 100%;
+}
+
+.follow {
+    margin-top: 25px;
+}
+
+.follow h4 {
+    color           : white;
+    background-color: black;
+    padding         : 15px 15px;
+    margin-bottom   : 0 !important;
+}
+
+.follow-content{
+    background-color: white;
+    padding:10px;
+}
+
+.follow-content .fa{
+    padding: 5px 5px;
+    font-size: 1.3em;
+}
+
+.follow-content .fa:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.subscripe{
+    margin-top: 25px;
+}
+
+.subscripe h4{
+    color           : white;
+    background-color: black;
+    padding         : 15px 15px;
+    margin-bottom   : 0 !important;
+}
+
+.subscripe-content{
+    padding: 15px 15px;
+    background-color: white;
+}
+
+.email-input{
+    width:100%;
+    border: 1px solid rgba(0, 0, 0, 0.3); 
+    padding: 10px;
+}
+
+.submit-button{
+    width:100%;
+    margin:10px 0px;
+    background-color: red;
+    color:white;
+    border: 0px;
+    padding:7px;
+}
+
+footer{
+    height:25%;
+    background-color: gray;
+    position: relative;
+}
+
+footer button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 40%;
+    left: 5%;
+}
+
+a{
+    text-decoration: none !important;
+    color:white !important;
+}

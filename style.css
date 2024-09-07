@@ -24,9 +24,7 @@ display: inline !important;
     padding-left: inherit;
     display: inline;
 }
-.main-body{
-    display: flex;
-}
+
 
 .content{
     display: flex;
