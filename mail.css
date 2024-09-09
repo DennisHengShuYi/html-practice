@@ -1,0 +1,327 @@
+nav{
+    display: flex;
+    background-color:#4d636f;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+
+nav>div{
+    color: white;
+
+
+    padding: 15px 25px;
+}
+
+nav div:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-image img{
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+}
+
+.nav-image{
+    margin-left: auto;
+}
+
+.nav-bell{
+    position: relative;
+    padding: 15px 30px !important;
+}
+
+
+
+
+.nav-bell-num{
+position: absolute;
+top: 8%;
+right: 0%;
+border-radius: 50%;
+background-color: green;
+padding:0px 8px;
+}
+
+.dropdown{
+    position: absolute;
+    top: 100%;
+    width: 400%;
+    left:0%;
+    display: none;
+    background-color: lightgrey;
+
+}
+
+.dropdown a{
+    display: block;
+    padding: 10px 10px;
+    font-size: 1.3em;
+    
+    z-index: 999;
+
+}
+
+.nav-bell:hover .dropdown{
+    display: block;
+    
+}
+
+.dropdown a:hover{
+   background-color: black;
+   color: white;
+}
+.main-content{
+    display: flex;
+    padding: 90px 60px;
+    background-color: whitesmoke;
+}
+.column-1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.my-profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.my-profile>div p{
+    display: inline-block;
+    margin-left: 20px;
+    opacity: 0.8;
+}
+
+.my-profile{
+    background-color: #ffffff;
+    padding: 20px 20px;
+    box-shadow: 5px 5px 20px 5px lightgray
+}
+.my-profile i{
+    color:#4d636f;
+}
+
+.toggle-content i+p{
+display: inline-block;
+margin-left :20px; ;
+font-size: 1.3em;
+}
+
+.fa-users{
+    font-size: 0.7em;
+}
+.toggle-content{
+    margin-top:20px;
+    box-shadow: 5px 5px 20px 5px lightgray
+}
+.toggle{
+    background-color: #7d97a5;
+    color: white;
+    padding-left:20px;
+}
+
+.toggle:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+
+.toggle:checked .toggle-hide{
+display: block;
+}
+
+.toggle-hide{
+    padding-left: 20px;
+    background-color: #ffffff;
+    display: none;
+   
+}
+
+.toggle-content button{
+    width:100%;
+    text-align: start;
+    border: 0px;
+}
+
+.interest{
+    margin-top:20px;
+    box-shadow: 5px 5px 20px 5px lightgray;
+    padding: 10px;
+}
+
+.tag span{
+    padding: 5px;
+    margin: 5px 5px;
+    background-color: #7d97a5;
+    display: inline-block;
+    font-size: 0.8em;
+
+} 
+
+.column-2{
+    width: 50%;
+    margin: 0px 20px;
+}
+
+.post{
+    background-color: white;
+    padding: 15px 15px;
+    box-shadow: 5px 5px 20px 5px lightgray;
+}
+.post button{
+    margin-top:15px;
+    padding: 10px 15px;
+    color: white;
+    background-color: #7d97a5;
+    border: 0px;
+    font-size: 1.1em;
+}
+.post button:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+
+}
+
+.post-photo img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    float: left;
+}
+
+.user-post{
+    margin-top: 20px;
+    background-color: white;
+    padding: 15px 15px;
+    box-shadow: 5px 5px 20px 5px lightgray;
+}
+
+.username{
+    display: block;
+    padding-left: 10px; 
+    float: left;
+    font-size: 1.2em;
+    margin-top:9px;
+
+}
+.post-photo::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.post-photo{
+    padding: 15px;
+}
+
+.post-gallery img{
+    width: 51%;
+    height: 250px;
+    padding: 10px 10px;
+}
+
+.post-gallery{
+    display: flex;
+    justify-content: center;
+}
+
+.user-post button{
+    color:white;
+    background-color: #7d97a5;
+    margin: 5px;
+    padding: 15px;
+    border: 0px;
+}
+.user-post button:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+
+}
+
+.column-3{
+    width: 20%;
+}
+
+.upcoming{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 15px;
+    box-shadow: 5px 5px 20px 5px lightgray;
+
+}
+.upcoming button{
+    background-color: #DFE5E8;
+    border: 0px;
+    width: 100%;
+    padding: 10px 0px;
+
+}
+
+.friend img{
+    width: 30%;
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+
+}
+.upcoming button:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+.friend{
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 20px 5px lightgray;
+}
+
+.friend button{
+    margin-top:20px;
+    padding:10px 30px;
+    cursor: pointer;
+}
+
+.ad{
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 20px 5px lightgray;
+}
+
+.bug{
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 20px 5px lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+footer{
+    height: 30%;
+    background-color: black;
+    position: relative;
+}
+
+footer button {
+    position:absolute;
+    padding:15px;
+    bottom: 50%;
+    right: 50%;
+}

@@ -1,0 +1,219 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mail.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="" type="image/x-icon">
+    <style>
+        * {
+            font-family: 'Times New Roman', Times, serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            overflow: auto;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div><i class="fa fa-home">
+                <p style="display: inline; padding-left: 15px;">Logo</p>
+            </i></div>
+        <div><i class="fa fa-globe"></i></div>
+        <div><i class="fa fa-user"></i></div>
+        <div><i class="fa fa-envelope"></i></div>
+        <div class="nav-bell">
+            <i class="fa fa-bell"></i><span class="nav-bell-num">3</span>
+            <div class="dropdown">
+                <a href="#">One new friend request</a>
+                <a href="#">John Doe post on your wall</a>
+                <a href="#">Jane like your post</a>
+            </div>
+
+        </div>
+        <div class="nav-image"><img src="Photos/avatar2.png" alt="avatar2"></div>
+    </nav>
+
+    <div class="main-content" id="top">
+        <div class="column-1">
+            <div class="my-profile">
+                <h2 style="text-align: center;">My profile</h2>
+                <img src="Photos/avatar3.png" alt="avatar 3">
+                <hr />
+                <div><i class="fa fa-pencil"></i>
+                    <p>Designer, UI</p>
+                </div>
+                <div><i class="fa fa-home"></i>
+                    <p>London, UK</p>
+                </div>
+                <div><i class="fa fa-birthday-cake"></i>
+                    <p>April 1, 1988</p>
+                </div>
+            </div>
+
+            <div class="toggle-content">
+                <button class="toggle-circle toggle">
+                    <i class="fa fa-circle"></i>
+                    <p>My Groups</p>
+                </button>
+                <button class="toggle-hide">
+                    <p>Some text..</p>
+                </button>
+                <button class="toggle-calendar toggle">
+                    <i class="fa fa-calendar"></i>
+                    <p>My Events</p>
+                </button>
+                <button class="toggle-users toggle">
+                    <i class="fa fa-users"></i>
+                    <p>My Photos</p>
+                </button>
+
+            </div><!--End og toggle content-->
+
+            <div class="interest">
+                <h3>Interest</h3>
+                <div class="tag">
+                    <span>News</span>
+                    <span>W3Schools</span>
+                    <span>Labels</span>
+                    <span>Games</span>
+                    <span>Friends</span>
+                    <span>News</span>
+                    <span>Games</span>
+                    <span>Foods</span>
+                    <span>Design</span>
+                </div>
+
+            </div><!--End of group of tags-->
+
+        </div><!--End of section 1-->
+
+        <div class="column-2">
+            <div class="post">
+                <p>Social Media</p>
+                <input type="text" value="Status: Feeling Blue" name="message"
+                    style="width: 100%; padding: 10px; border: 1px solid rgba(0, 0, 0, 0.2);">
+                <button type="submit" style="cursor: pointer;">
+                    <i class="fa fa-pencil" style="padding-right: 15px;"></i>Post</button>
+            </div><!--End of post part-->
+
+            <div class="user-post">
+                <div class="post-photo">
+                    <img src="Photos/avatar2.png" alt="avatar 2">
+                    <p class="username">John Doe</p>
+                    <p style="float: right; margin-top: 0px; opacity: 0.4;">1 min</p>
+                </div>
+                <hr style="opacity: 0.4;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+                <div class="post-gallery">
+                    <img src="Photos/lights.jpg" alt="lights">
+                    <img src="Photos/nature.jpg" alt="nature">
+                </div>
+                <button>
+                    <i class="fa fa-thumbs-up" style="padding-right: 5px;"></i>
+                    <span>Like</span>
+                </button>
+                <button>
+                    <i class="fa fa-comment" style="padding-right: 5px;"></i>
+                    <span>Comment</span>
+                </button>
+            </div><!--End of 1st user post-->
+
+            <div class="user-post">
+                <div class="post-photo">
+                    <img src="Photos/avatar5.png" alt="avatar 5">
+                    <p class="username">John Doe</p>
+                    <p style="float: right; margin-top: 0px; opacity: 0.4;">16 min</p>
+                </div>
+                <hr style="opacity: 0.4;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+                <button>
+                    <i class="fa fa-thumbs-up" style="padding-right: 5px;"></i>
+                    <span>Like</span>
+                </button>
+                <button>
+                    <i class="fa fa-comment" style="padding-right: 5px;"></i>
+                    <span>Comment</span>
+                </button>
+            </div><!--End of 2nd user post-->
+
+            <div class="user-post">
+                <div class="post-photo">
+                    <img src="Photos/avatar6.png" alt="avatar 5">
+                    <p class="username">John Doe</p>
+                    <p style="float: right; margin-top: 0px; opacity: 0.4;">32 min</p>
+                </div>
+                <hr style="opacity: 0.4;">
+                <p>Have you seen this?</p>
+                <img src="Photos/nature.jpg" alt="nature" style="width: 100%; height: auto;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+                <button>
+                    <i class="fa fa-thumbs-up" style="padding-right: 5px;"></i>
+                    <span>Like</span>
+                </button>
+                <button>
+                    <i class="fa fa-comment" style="padding-right: 5px;"></i>
+                    <span>Comment</span>
+                </button>
+            </div><!--End of 3rd user post-->
+
+        </div><!--End of column 2-->
+
+        <div class="column-3">
+            <div class="upcoming">
+                <p>Upcoming Events:</p>
+                <img src="Photos/forest.jpg" alt="forest" style="width: 100%; height: auto;">
+                <p><b>Holiday</b></p>
+                <p>Friday 15:00</p>
+                <button>Info</button>
+
+            </div><!--end of upcoming part-->
+            <div class="friend">
+                <p>Friend Request</p>
+                <img src="Photos/avatar6.png" alt="avatar 6">
+                <button style="background-color: lightgreen;">
+                    <i class="fa fa-check"></i>
+                </button>
+                <button style="background-color: lightcoral;">
+                    <i class="fa fa-remove"></i>
+                </button>
+            </div>
+
+            <div class="ad">
+                <p>ADS</p>
+
+            </div>
+
+            <div class="bug">
+                <i class="fa fa-bug" style="font-size: 1.5em;"></i>
+
+            </div>
+
+        </div><!--End of column 3-->
+
+    </div><!--End of main-content-->
+    <footer>
+        <a href="#top">
+        <button >To the top</button>
+    </a>
+    </footer>
+
+
+</body>
